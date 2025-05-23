@@ -2,40 +2,57 @@
 
 Este proyecto es una aplicación web personal desarrollada con el framework Django. Incluye funcionalidades como un portafolio de proyectos, una página de contacto, y una sección "Sobre mí". Está diseñado para ser fácilmente extensible y personalizable.
 
-## Tabla de Contenidos
+## 🚀 Características Principales
 
-- [Características](#características)
-- [Requisitos](#requisitos)
-- [Instalación](#instalación)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Uso](#uso)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+- 🧑‍💼 Sección "Sobre mí": Presentación personal con información relevante.
+- 🗂️ Portafolio de Proyectos: Muestra de proyectos realizados con descripciones y enlaces.
+- 📬 Página de Contacto: Formulario para que los visitantes puedan enviar mensajes.
+- 🎨 Diseño Responsivo: Adaptable a diferentes dispositivos y tamaños de pantalla.
+- 🔧 Fácil Personalización: Estructura modular que permite agregar o modificar secciones fácilmente.
 
 ---
 
-## Características
+## 🛠️ Tecnologías Utilizadas
 
-- **Página de inicio**: Información general sobre el sitio.
-- **Sección "Sobre mí"**: Información personal.
-- **Portafolio**: Listado de proyectos con título, descripción, imagen y enlace.
-- **Página de contacto**: Formulario para que los usuarios puedan contactarte.
-- **Panel de administración**: Gestión de proyectos y contenido dinámico.
-
----
-
-## Requisitos
-
-- Python 3.10 o superior
-- Django 4.2.5
-- Dependencias adicionales (ver `requirements.txt`):
-  - `django-crispy-forms`
-  - `Pillow`
-  - `requests`
+- Framework: Django
+- Lenguaje de Programación: Python 3
+- Base de Datos: SQLite
+- Frontend: HTML5, CSS3, Bootstrap
+- Control de Versiones: Git
 
 ---
 
-## Instalación
+## 📂 Estructura del Proyecto
+
+```plaintext
+webpersonal/
+├── core/                  # Aplicación principal
+│   ├── admin.py           # Configuración del panel de administración
+│   ├── apps.py            # Configuración de la aplicación
+│   ├── models.py          # Modelos de datos
+│   ├── views.py           # Vistas de la aplicación
+│   ├── templates/         # Plantillas HTML
+│   └── tests.py           # Pruebas unitarias
+├── portfolio/             # Aplicación para el portafolio
+│   ├── admin.py           # Configuración del panel de administración
+│   ├── apps.py            # Configuración de la aplicación
+│   ├── models.py          # Modelos de datos
+│   ├── views.py           # Vistas de la aplicación
+│   ├── templates/         # Plantillas HTML
+│   └── tests.py           # Pruebas unitarias
+├── webpersonal/           # Configuración del proyecto
+│   ├── settings.py        # Configuración global del proyecto
+│   ├── urls.py            # Configuración de rutas
+│   ├── wsgi.py            # Configuración WSGI
+│   └── asgi.py            # Configuración ASGI
+├── manage.py              # Utilidad de línea de comandos de Django
+├── requirements.txt       # Dependencias del proyecto
+└── README.md              # Documentación del proyecto
+```
+
+---
+
+## ⚙️ Instalación y Ejecución
 
 1. Clona este repositorio:
    ```bash
@@ -68,47 +85,10 @@ Este proyecto es una aplicación web personal desarrollada con el framework Djan
 
 ---
 
-## Estructura del Proyecto
 
-```plaintext
-webpersonal/
-├── core/                  # Aplicación principal
-│   ├── admin.py           # Configuración del panel de administración
-│   ├── apps.py            # Configuración de la aplicación
-│   ├── models.py          # Modelos de datos
-│   ├── views.py           # Vistas de la aplicación
-│   ├── templates/         # Plantillas HTML
-│   └── tests.py           # Pruebas unitarias
-├── portfolio/             # Aplicación para el portafolio
-│   ├── admin.py           # Configuración del panel de administración
-│   ├── apps.py            # Configuración de la aplicación
-│   ├── models.py          # Modelos de datos
-│   ├── views.py           # Vistas de la aplicación
-│   ├── templates/         # Plantillas HTML
-│   └── tests.py           # Pruebas unitarias
-├── webpersonal/           # Configuración del proyecto
-│   ├── settings.py        # Configuración global del proyecto
-│   ├── urls.py            # Configuración de rutas
-│   ├── wsgi.py            # Configuración WSGI
-│   └── asgi.py            # Configuración ASGI
-├── manage.py              # Utilidad de línea de comandos de Django
-├── requirements.txt       # Dependencias del proyecto
-└── README.md              # Documentación del proyecto
-```
+## 📸 Capturas de Pantalla
 
----
-
-## Uso
-
-### Panel de Administración
-1. Crea un superusuario para acceder al panel de administración:
-   ```bash
-   python manage.py createsuperuser
-   ```
-2. Accede al panel en `http://127.0.0.1:8000/admin`.
-
-### Gestión de Proyectos
-- Desde el panel de administración, puedes agregar, editar o eliminar proyectos que se mostrarán en la sección de portafolio.
+   Nota: Aquí se incluiran imágenes o gifs que muestren la interfaz de usuario, como la página de inicio, el portafolio de proyectos y la página de contacto.
 
 ---
 
@@ -132,4 +112,14 @@ Este proyecto está licenciado bajo la [MIT License](https://opensource.org/lice
 
 ## Autor
 
-Desarrollado por **[F Javier]**. Si tienes preguntas o sugerencias, no dudes en contactarme.
+Desarrollado por **F Javier**. Si tienes preguntas o sugerencias, no dudes en contactarme.
+
+## 📬 Contacto
+
+
+
+Para consultas o sugerencias:
+
+Autor: guizafj
+
+Correo: contacto@dguiza.dev
